@@ -25,7 +25,7 @@ config.font = wezterm.font_with_fallback({
     'Fira Code',
     'Symbols Nerd Font Mono',
 })
-config.font_size = 22
+config.font_size = 18
 config.line_height = 0.8
 
 config.window_background_opacity = 1.0
