@@ -1,2 +1,2 @@
 # .settings
-new dotfiles
+My new dotfiles repo
