@@ -11,6 +11,21 @@ echo -ne '\e[1 q'
 preexec() {
     echo -ne '\e[1 q'
 }
+# Update
+OS=$(uname)
+if [[ $OS == 'Darwin' ]]; then
+    alias update="brew update && brew upgrade --greedy"
+elif [[ $OS == 'Linux' ]]; then
+	DISTRO=$(lsb_release -is)
+	if [[ $DISTRO == 'Ubuntu' ]]; then
+        alias update="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y"
+    elif [[ $DISTRO == 'Debian' ]]; then
+   		alias update="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y"
+    elif [[ $DISTRO == 'Arch' ]]; then
+   		alias update="sudo pacman -Syu"
+	fi
+fi
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -132,24 +147,6 @@ alias upupup='cd ../../..'
 # Misc 
 alias vim='nvim'
 
-# Update
-OS=$(uname)
-if [[ $OS == 'Darwin' ]]
-then
-    alias update="brew update && brew upgrade --greedy"
-else
-DISTRO=$(lsb_release -is)
-if [[ $DISTRO == 'Ubuntu' ]]
-then
-    alias update="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y"
-else
-if [[ $DISTRO == 'Debian' ]]
-    alias update="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y"
-else
-if [[ $DISTRO == 'Arch' ]]
-then
-    alias update="sudo pacman -Syu"
-else
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
