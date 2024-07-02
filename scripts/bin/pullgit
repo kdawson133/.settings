@@ -14,7 +14,7 @@
 CON=$HOME/.config
 
 repos=(
-    "$HOME/.dotfiles"
+    "$HOME/.settings"
     "$CON/rbenv"
     "$CON/rbenv/plugins/ruby-build"
 )
