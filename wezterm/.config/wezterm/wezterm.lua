@@ -31,7 +31,7 @@ config.line_height = 0.8
 config.window_background_opacity = 1.0
 config.window_background_image = image_file
 config.window_background_image_hsb = {
-    brightness = 0.2,
+    brightness = 0.01,
     hue = 1.0,
     saturation = 1.0,
 }
