@@ -25,7 +25,7 @@ config.font = wezterm.font_with_fallback({
     'Monaspace Neon',
     'Symbols Nerd Font Mono',
 })
-config.font_size = 18
+config.font_size = 16
 config.line_height = 0.8
 
 config.window_background_opacity = 1.0
