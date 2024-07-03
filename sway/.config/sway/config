@@ -36,7 +36,7 @@ set $menu wofi --show drun
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/ktdawson/Pictures/Wallpaper/krjef9fchcx61.jpg fill
+output * bg /home/ktdawson/Pictures/Wallpaper/iss.png fill
 #
 # Example configuration:
 #
