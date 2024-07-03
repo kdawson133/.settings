@@ -32,6 +32,8 @@ set $term kitty
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
 set $menu wofi --show drun
+# Your Preferred Browser
+set $browser chromium
 
 ### Output configuration
 #
@@ -93,6 +95,8 @@ input "type:touchpad" {
     # Start your launcher
     bindsym $mod+d exec $menu
     bindsym Alt+Space exec $menu
+    # Start your browser
+    bindsym $mod+c exec $browser
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
     # Despite the name, also works for non-floating windows.
