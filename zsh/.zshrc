@@ -11,6 +11,21 @@ echo -ne '\e[1 q'
 preexec() {
     echo -ne '\e[1 q'
 }
+
+# PATHS TO INCLUDE
+# Adds ~/bin
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
+# Adds ~/.local/bin
+if [ -d "$HOME/.local/bin" ] ; then
+    PATH="$HOME/.local/bin:$PATH"
+fi
+
+# Adds /usr/local/bin
+if [ -d "/usr/local/bin" ] ; then
+    PATH="/usr/local/bin:$PATH"
+fi
 # Update
 OS=$(uname)
 if [[ $OS == 'Darwin' ]]; then
@@ -89,6 +104,7 @@ bindkey '^[w' kill-region
 bindkey '^[[3~' delete-char
 bindkey '^[[H' beginning-of-line
 bindkey '^[[F' end-of-line
+
 # History
 HISTSIZE=5000
 HISTFILE=~/.zsh_history
