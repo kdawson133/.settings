@@ -22,7 +22,7 @@ local image_file = wezterm.home_dir .. '/.config/wezterm/image.jpg'
 -- For example, changing the color scheme:
 config.color_scheme = 'nord'
 config.font = wezterm.font_with_fallback({
-    'Fira Code',
+    'Monaspace Neon',
     'Symbols Nerd Font Mono',
 })
 config.font_size = 18
