@@ -168,6 +168,7 @@ alias upupup='cd ../../..'
 # Misc 
 alias vim='nvim'
 alias hx='helix'
+
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
