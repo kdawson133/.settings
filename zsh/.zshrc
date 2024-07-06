@@ -12,20 +12,6 @@ preexec() {
     echo -ne '\e[1 q'
 }
 
-# PATHS TO INCLUDE
-# Adds ~/bin
-if [ -d "$HOME/bin" ] ; then
-    PATH="$HOME/bin:$PATH"
-fi
-# Adds ~/.local/bin
-if [ -d "$HOME/.local/bin" ] ; then
-    PATH="$HOME/.local/bin:$PATH"
-fi
-
-# Adds /usr/local/bin
-if [ -d "/usr/local/bin" ] ; then
-    PATH="/usr/local/bin:$PATH"
-fi
 # Update
 OS=$(uname)
 if [[ $OS == 'Darwin' ]]; then
