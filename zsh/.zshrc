@@ -129,6 +129,8 @@ alias grr='git remote rm'
 alias gra='git remote add'
 alias glog='git log'
 alias grsu='git remote set-url --add --push'
+alias gr='git restore'
+alias gd='git diff'
 
 # Terminal
 alias :c="clear"
