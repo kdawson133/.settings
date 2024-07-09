@@ -1,0 +1,18 @@
+{
+	"ignored_packages":
+	[
+		"Rust",
+		"Vintage",
+	],
+	"theme": "Default Dark.sublime-theme",
+	"color_scheme": "Nord.sublime-color-scheme",
+	"font_face": "Monaspace Neon Var",
+	"font_size": 16,
+	"font_options":
+	[
+		"subpixel_antialias",
+		"gray_antialias"
+	],
+	"tab_size": 4,
+	"index_files": true,
+}

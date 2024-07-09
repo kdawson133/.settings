@@ -1,0 +1,10 @@
+{
+  "editor.accessibilitySupport": "off",
+  "workbench.colorTheme": "Nord",
+  "editor.fontSize": 16,
+  "editor.fontFamily": "Monaspace Neon Var, Menlo, Monaco, 'Courier New', monospace",
+  "window.zoomLevel": 2,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.fontFamily": "Monaspace Neon",
+  "editor.fontLigatures": true
