@@ -73,7 +73,7 @@ TERM = "alacritty"
 size = 16
 
 [font.bold]
-family = "MonaspiceNE Nerd Font Mono"
+family = "MonaspiceNe Nerd Font Mono"
 style = "Bold"
 
 [font.bold_italic]
