@@ -42,4 +42,8 @@ export GNUPGHOME="$XDG_DATA_HOME"/gnupg
 export LESSHISTFILE="$XDG_STATE_HOME"/less/history
 export TERMINFO="$XDG_DATA_HOME"/terminfo
 export TERMINFO_DIRS="$XDG_DATA_HOME"/terminfo:/usr/share/terminfo
-. "$HOME/.cargo/env"
+# Rust
+
+if [[ -f "$HOME/.cargo/env" ]] then
+    . "$HOME/.cargo/env"
+fi
