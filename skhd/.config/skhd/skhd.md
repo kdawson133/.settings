@@ -90,6 +90,14 @@
 
 `shift` + `alt` + 4 - space 4
 
+`shift` + `alt` + 5 - space 5
+
+`shift` + `alt` + 6 - space 6
+
+`shift` + `alt` + 7 - space 7
+
+`shift` + `alt` + 8 - space 8
+
 ## Starting/Stopping/Restarting Yabai
 
 ## stop/start/restart yabai
