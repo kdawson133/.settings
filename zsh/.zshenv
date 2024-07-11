@@ -21,7 +21,7 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CACHE_HOME="$HOME/.cache"
 export XDG_STATE_HOME="$HOME/.local/state"
-# export XDG_RUNTIME_DIR="$HOME/.local/share/runtime"
+export XDG_RUNTIME_DIR="/run/user/$(id -u)"
 
 # ZSH
 export KEYTIMEOUT=1
@@ -37,7 +37,7 @@ export LANG=en_AU.UTF-8
 export LANGUAGE=en_AU:en
 export TERM=xterm-256color
 export COLORTERM=truecolor
-export TERMINAL=wezterm
+export TERMINAL=kitty
 export GNUPGHOME="$XDG_DATA_HOME"/gnupg
 export LESSHISTFILE="$XDG_STATE_HOME"/less/history
 export TERMINFO="$XDG_DATA_HOME"/terminfo
