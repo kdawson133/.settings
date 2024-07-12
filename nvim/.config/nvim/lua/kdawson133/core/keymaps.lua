@@ -45,3 +45,6 @@ vim.keymap.set("v", "p", '"_dP')
 
 -- Toggles Transparency
 vim.keymap.set("n", "<C-t>", ":TransparentToggle<CR>")
+
+-- Markdown Preview
+vim.keymap.set("n", "<C-m>", ":MarkdownPreviewToggle<cr>", opts)
