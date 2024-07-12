@@ -104,9 +104,10 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 # Aliases
 
 # Listing
-alias ls='ls --color'
-alias ll='ls -la --color'
-alias l.='ls -d .* --color'
+alias ls='ls --color=auto'
+alias ll='ls -lah --color=auto'
+alias ld='ls -d */'
+alias l.='ls -a --color=auto'
 
 # Safety
 alias cp='cp -i'
