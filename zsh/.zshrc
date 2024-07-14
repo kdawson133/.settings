@@ -135,6 +135,7 @@ alias glog='git log'
 alias grsu='git remote set-url --add --push'
 alias gr='git restore'
 alias gd='git diff'
+alias lg='lazygit'
 
 # Terminal
 alias :c="clear"
