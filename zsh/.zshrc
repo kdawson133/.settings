@@ -145,6 +145,14 @@ alias up='cd ..'
 alias upup='cd ../..'
 alias upupup='cd ../../..'
 
+# TMUX
+alias txa='tmux new -s α-alpha'
+alias txb='tmux new -s β-beta'
+alias txc='tmux new -s γ-gamma'
+alias tka='tmux kill-session -t α-alpha'
+alias tkb='tmux kill-session -t β-beta'
+alias tkc='tmux kill-session -t γ-gamma'
+
 # Misc 
 alias vim='nvim'
 
