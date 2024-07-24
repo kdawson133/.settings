@@ -8,8 +8,6 @@ print('\nUPDATING ==> Pallas')
 os.execute("ssh -t pallas 'sudo nala upgrade -y && sudo nala autoremove -y'")
 print('\nUPDATING ==> Titan')
 os.execute("ssh -t titan 'sudo nala upgrade -y && sudo nala autoremove -y'")
-print('\nUPDATING ==> Pallas')
-os.execute("ssh -t pallas 'sudo nala upgrade -y && sudo nala autoremove -y'")
 -- Virtual Machines
 print('\nUPDATING ==> 100')
 os.execute("ssh -t 100 'sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y'")
