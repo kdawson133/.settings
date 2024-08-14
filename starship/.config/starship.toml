@@ -81,6 +81,10 @@ style = "nord4"
 format = "[$duration]($style) "
 style = "nord13"
 
+[container]
+format = '[$symbol \[$name\]] '
+style = "nord7"
+
 [python]
 format = "[$virtualenv]($style) "
 style = "nord4"
