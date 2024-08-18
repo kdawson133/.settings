@@ -26,7 +26,8 @@ elif [[ $OS == 'Linux' ]]; then
     elif [[ $DISTRO == 'Debian' ]]; then
    		alias update="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y"
     elif [[ $DISTRO == 'Arch' ]]; then
-   		alias update="sudo pacman -Syu && sudo pacman -R $(pacman -Qdtq)"
+   		alias update="sudo pacman -Syu"
+        alias autoremove="sudo pacman -R $(pacman -Qdtq)"
 	fi
 fi
 
