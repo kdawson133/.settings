@@ -44,8 +44,10 @@ export TERMINFO="$XDG_DATA_HOME"/terminfo
 export TERMINFO_DIRS="$XDG_DATA_HOME"/terminfo:/usr/share/terminfo
 export PODMAN_IGNORE_CGROUPSV1_WARNING=0
 
-# Rust
+#HomeBrew
+export HOMEBREW_NO_ENV_HINTS
 
+# Rust
 if [[ -f "$HOME/.cargo/env" ]] then
     . "$HOME/.cargo/env"
 fi
