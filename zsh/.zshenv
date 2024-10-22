@@ -47,11 +47,6 @@ export PODMAN_IGNORE_CGROUPSV1_WARNING=0
 # HomeBrew
 export HOMEBREW_NO_ENV_HINTS=1
 
-# pyenv
-export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-
 # Rust
 if [[ -f "$HOME/.cargo/env" ]] then
     . "$HOME/.cargo/env"
