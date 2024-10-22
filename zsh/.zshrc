@@ -161,3 +161,4 @@ alias vim='nvim'
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(starship init zsh)"
+eval "$(pyenv virtualenv-init -)"
