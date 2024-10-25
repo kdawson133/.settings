@@ -1,6 +1,4 @@
 
-live_config_reload = true
-
 [colors]
 draw_bold_text_with_bright_colors = true
 
@@ -139,3 +137,7 @@ lines = 25
 [window.padding]
 x = 15
 y = 15
+
+[general]
+
+live_config_reload = true
