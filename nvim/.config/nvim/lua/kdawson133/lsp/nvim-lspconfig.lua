@@ -11,7 +11,6 @@ return {
                 },
             },
         })
-		lspconfig.tsserver.setup({})
 		lspconfig.rust_analyzer.setup({})
 		lspconfig.pyright.setup({})
 		lspconfig.html.setup({})
