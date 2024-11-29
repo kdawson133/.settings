@@ -162,3 +162,9 @@ eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(starship init zsh)"
 
+# Ruby
+if [[ -d "/opt/homebrew/opt/chruby" ]] then
+    source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
+    source /opt/homebrew/opt/chruby/share/chruby/auto.sh
+    chruby ruby-3.3.5 # run chruby to see actual version
+fi
